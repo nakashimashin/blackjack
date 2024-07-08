@@ -5,7 +5,7 @@
 #define LEARNING_RATE   0.01 // 学習率
 #define DISCOUNT_RATE    0.9 // 割引率
 #define LEARN_TIME      1000 // 最大更新回数
-#define ENEMY_STRATEGY    16 // 敵の戦略(カード合計が ENEMY_STRATEGY 以下ならヒット)
+#define ENEMY_STRATEGY    20 // 敵の戦略(カード合計が ENEMY_STRATEGY 以下ならヒット)
 #define REWARD_WIN       100 // 報酬（勝った時）
 #define REWARD_DRAW        0 // 報酬（引き分けた時）
 #define REWARD_LOSE     -100 // 報酬（負けた時）
